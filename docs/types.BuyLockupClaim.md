@@ -1,0 +1,30 @@
+# Interface: BuyLockupClaim
+
+[types](../wiki/types).BuyLockupClaim
+
+## Table of contents
+
+### Properties
+
+- [scope](../wiki/types.BuyLockupClaim#scope)
+- [type](../wiki/types.BuyLockupClaim#type)
+
+## Properties
+
+### scope
+
+• **scope**: [`Scope`](../wiki/types.Scope)
+
+#### Defined in
+
+[types/index.ts:226](https://github.com/PolymeshAssociation/polymesh-sdk/blob/16e8c2ca/src/types/index.ts#L226)
+
+___
+
+### type
+
+• **type**: [`BuyLockup`](../wiki/types.ClaimType#buylockup)
+
+#### Defined in
+
+[types/index.ts:225](https://github.com/PolymeshAssociation/polymesh-sdk/blob/16e8c2ca/src/types/index.ts#L225)
