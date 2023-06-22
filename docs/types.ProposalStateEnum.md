@@ -1,0 +1,90 @@
+# Enumeration: ProposalStateEnum
+
+[types](../wiki/types).ProposalStateEnum
+
+**`Enum Name`**
+
+ ProposalStateEnum
+ Represents all possible Proposal statuses
+
+## Table of contents
+
+### Enumeration Members
+
+- [All](../wiki/types.ProposalStateEnum#all)
+- [Executed](../wiki/types.ProposalStateEnum#executed)
+- [Expired](../wiki/types.ProposalStateEnum#expired)
+- [Failed](../wiki/types.ProposalStateEnum#failed)
+- [Pending](../wiki/types.ProposalStateEnum#pending)
+- [Rejected](../wiki/types.ProposalStateEnum#rejected)
+- [Scheduled](../wiki/types.ProposalStateEnum#scheduled)
+
+## Enumeration Members
+
+### All
+
+• **All** = ``"All"``
+
+#### Defined in
+
+[middleware/typesV2.ts:27056](https://github.com/PolymeshAssociation/polymesh-sdk/blob/07a4c5b0/src/middleware/typesV2.ts#L27056)
+
+___
+
+### Executed
+
+• **Executed** = ``"Executed"``
+
+#### Defined in
+
+[middleware/typesV2.ts:27057](https://github.com/PolymeshAssociation/polymesh-sdk/blob/07a4c5b0/src/middleware/typesV2.ts#L27057)
+
+___
+
+### Expired
+
+• **Expired** = ``"Expired"``
+
+#### Defined in
+
+[middleware/typesV2.ts:27058](https://github.com/PolymeshAssociation/polymesh-sdk/blob/07a4c5b0/src/middleware/typesV2.ts#L27058)
+
+___
+
+### Failed
+
+• **Failed** = ``"Failed"``
+
+#### Defined in
+
+[middleware/typesV2.ts:27059](https://github.com/PolymeshAssociation/polymesh-sdk/blob/07a4c5b0/src/middleware/typesV2.ts#L27059)
+
+___
+
+### Pending
+
+• **Pending** = ``"Pending"``
+
+#### Defined in
+
+[middleware/typesV2.ts:27060](https://github.com/PolymeshAssociation/polymesh-sdk/blob/07a4c5b0/src/middleware/typesV2.ts#L27060)
+
+___
+
+### Rejected
+
+• **Rejected** = ``"Rejected"``
+
+#### Defined in
+
+[middleware/typesV2.ts:27061](https://github.com/PolymeshAssociation/polymesh-sdk/blob/07a4c5b0/src/middleware/typesV2.ts#L27061)
+
+___
+
+### Scheduled
+
+• **Scheduled** = ``"Scheduled"``
+
+#### Defined in
+
+[middleware/typesV2.ts:27062](https://github.com/PolymeshAssociation/polymesh-sdk/blob/07a4c5b0/src/middleware/typesV2.ts#L27062)
