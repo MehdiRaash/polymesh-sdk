@@ -1,0 +1,30 @@
+# Enumeration: RewardsTx
+
+[generated/types](../wiki/generated.types).RewardsTx
+
+## Table of contents
+
+### Enumeration Members
+
+- [ClaimItnReward](../wiki/generated.types.RewardsTx#claimitnreward)
+- [SetItnRewardStatus](../wiki/generated.types.RewardsTx#setitnrewardstatus)
+
+## Enumeration Members
+
+### ClaimItnReward
+
+• **ClaimItnReward** = ``"rewards.claimItnReward"``
+
+#### Defined in
+
+[generated/types.ts:705](https://github.com/PolymeshAssociation/polymesh-sdk/blob/3d14e829/src/generated/types.ts#L705)
+
+___
+
+### SetItnRewardStatus
+
+• **SetItnRewardStatus** = ``"rewards.setItnRewardStatus"``
+
+#### Defined in
+
+[generated/types.ts:706](https://github.com/PolymeshAssociation/polymesh-sdk/blob/3d14e829/src/generated/types.ts#L706)
