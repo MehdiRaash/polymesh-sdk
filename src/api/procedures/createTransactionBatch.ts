@@ -45,9 +45,11 @@ export function getAuthorization<ReturnValues extends unknown[]>(
   const {
     storage: { tags },
   } = this;
+  const isV5 = this.context.isV5;
+
   return {
     permissions: {
-      transactions: [...tags, TxTags.utility.BatchAtomic],
+      transactions: [...tags, isV5 ? TxTags.utility.BatchAtomic : TxTags.utility.BatchAll],
     },
   };
 }

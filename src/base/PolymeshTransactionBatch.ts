@@ -92,8 +92,15 @@ export class PolymeshTransactionBatch<
         },
       },
     } = this;
+    const isV5 = this.context.isV5;
 
-    return utility.batchAtomic(
+    if (isV5) {
+      return utility.batchAtomic(
+        this.transactionData.map(({ transaction, args }) => transaction(...args))
+      );
+    }
+
+    return utility.batchAll(
       this.transactionData.map(({ transaction, args }) => transaction(...args))
     );
   }
