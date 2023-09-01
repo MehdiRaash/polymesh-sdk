@@ -254,8 +254,8 @@ export class PolymeshTransactionBatch<
 
     // If one of the transactions in the batch fails, this event gets emitted
     const [failed] = isV5
-      ? filterEventRecords(receipt, 'utility', 'BatchInterrupted', true)
-      : filterEventRecords(receipt, 'utility', 'BatchInterruptedOld', true);
+      ? filterEventRecords(receipt, 'utility', 'BatchInterruptedOld', true)
+      : filterEventRecords(receipt, 'utility', 'BatchInterrupted', true);
 
     if (failed) {
       const {
