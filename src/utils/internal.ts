@@ -334,13 +334,19 @@ export function sliceBatchReceipt(
   to: number,
   isV5: boolean
 ): ISubmittableResult {
+  const batchCompletedResult = isV5
+    ? filterEventRecords(receipt, 'utility', 'BatchCompletedOld')
+    : filterEventRecords(receipt, 'utility', 'BatchCompleted');
+
+  if (!isV5) {
+    return receipt;
+  }
+
   const [
     {
       data: [rawEventsPerExtrinsic],
     },
-  ] = isV5
-    ? filterEventRecords(receipt, 'utility', 'BatchCompleted')
-    : filterEventRecords(receipt, 'utility', 'BatchCompletedOld');
+  ] = batchCompletedResult;
 
   if (rawEventsPerExtrinsic.length < to || from < 0) {
     throw new PolymeshError({
